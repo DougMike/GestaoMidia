@@ -1,0 +1,19 @@
+@import '../../../styles.scss';
+
+#nav-bar{
+    background-image: linear-gradient($pattern-primaryColor, $pattern-secondaryColor);
+    height: 10%;
+    padding: 2%;
+}
+
+button {
+    @include button-design(2%);
+    background: transparent;
+}
+
+button:hover {
+    @include button-design(2%);
+    background-color: $pattern-primaryColor;
+    opacity: 50%;
+    color: $pattern-secondaryColor;
+}

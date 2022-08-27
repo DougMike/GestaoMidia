@@ -1,0 +1,7 @@
+<div id="nav-bar">
+    <button mat-button routerLink="/" [matMenuTriggerFor]="belowMenu">home</button>
+    <button mat-button [matMenuTriggerFor]="belowMenu">Minhas mídias</button>
+    <mat-menu #belowMenu="matMenu" yPosition="below">
+        <button routerLink="/medias" mat-menu-item>Lista de mídias</button>
+    </mat-menu>
+</div>
