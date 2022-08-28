@@ -2,3 +2,12 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+$pattern-primaryColor: #3a3a3b;
+$pattern-secondaryColor: #ffffff;
+
+@mixin button-design ($padding) {
+    padding: $padding;
+    border: none;
+}

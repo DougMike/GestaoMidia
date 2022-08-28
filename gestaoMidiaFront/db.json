@@ -1,0 +1,19 @@
+{
+    "medias": [
+        {
+            "id": 1,
+            "titulo": "",
+            "tipoMedia": ""
+        }
+    ],
+    "artistas": [
+        {
+            "id": 1,
+            "nome": "",
+            "genero": 0
+        }
+    ],
+    "tipoMedia": {
+        "id": ""
+    }
+}

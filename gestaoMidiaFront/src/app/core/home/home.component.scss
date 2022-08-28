@@ -1,0 +1,6 @@
+@import '../../../styles.scss';
+
+
+p {
+    background-image: linear-gradient($pattern-primaryColor, $pattern-secondaryColor);
+}
